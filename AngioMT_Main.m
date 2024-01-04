@@ -13,11 +13,10 @@ phi = ; % partition coefficient of oxygen at vessel-tissue interface
 C_in = ; % inlet concentration of oxygen
 
 %% DEFINE PATH TO DEPENDENCIES--------------------------------------------%
-addpath('/Users/tanmaymathur/Library/CloudStorage/GoogleDrive-tmath8@tamu.edu/My Drive/TAMU/Graduate Student (Aug 2017-Oct 2022)/Research/Simulations/Vascular Networks/MATLAB scripts/github_repo')    % for poly2mesh
-addpath('/Users/tanmaymathur/Library/CloudStorage/GoogleDrive-tmath8@tamu.edu/My Drive/TAMU/Graduate Student (Aug 2017-Oct 2022)/Research/Simulations/Vascular Networks/MATLAB scripts/im2mesh')    % for im2mesh
+addpath('')    % for im2mesh
 
 %% DEFINE PATH TO FOLDER WITH IMAGES--------------------------------------%
-path_directory='/Users/tanmaymathur/Desktop/AngioMT/Images';
+path_directory='';
 original_files=dir([path_directory '/*.tif']);
 
 %% CREATE TABLE TO STORE ANCILLARY VARIABLES FOR EACH IMAGE---------------%
